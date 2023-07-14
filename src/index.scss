@@ -1,0 +1,126 @@
+:root {
+    --main-color: #52bfff;
+    --text-color: #7a7a7a;
+    --additional-text-color: #313131;
+    --form-background: #ffffff;
+    --form-placeholder-color: #98b6c9;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/montserrat-medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/montserrat-regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/montserrat-bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    @media (max-width: 430px) {
+        padding: 0 10px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 44px;
+
+    @media (max-width: 768px) {
+        font-size: 34px;
+    }
+
+    @media (max-width: 430px) {
+        font-size: 26px;
+    }
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    color: var(--main-color);
+
+    @media (max-width: 768px) {
+        font-size: 26px;
+    }
+
+    @media (max-width: 430px) {
+        font-size: 24px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+body .slick-dots {
+    li {
+        width: auto;
+        height: auto;
+        margin: 0 3px;
+
+        button {
+            width: 18px;
+            height: 4px;
+            border-radius: 5px;
+            background: lightgrey;
+            opacity: 0.6;
+            padding: 0;
+
+            &:before {
+                display: none;
+            }
+        }
+
+        &.slick-active {
+            button {
+                width: 30px;
+                height: 6px;
+                background: #FE0002;
+                opacity: 1;
+            }
+        }
+    }
+}

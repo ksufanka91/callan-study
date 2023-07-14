@@ -1,0 +1,6 @@
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="g1">
+        <path id="path1" fill="#d9d9d9" stroke="#eeefef" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M 25 0.25 L 25 0.25 C 38.669044 0.25 49.75 11.330948 49.75 25 L 49.75 25 C 49.75 38.669044 38.669044 49.75 25 49.75 L 25 49.75 C 11.330952 49.75 0.25 38.669044 0.25 25 L 0.25 25 C 0.25 11.330948 11.330952 0.25 25 0.25 Z"/>
+        <path id="path2" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M 20 25 L 30 25"/>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+.students {
+    padding-bottom: 120px;
+
+    .title {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .image {
+        border-radius: 20px;
+    }
+
+
+    :global {
+        .slick-dots {
+            bottom: -34px;
+        }
+    }
+}

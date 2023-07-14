@@ -1,0 +1,103 @@
+.footer {
+    padding: 58px 0;
+
+    @media (max-width: 430px) {
+        padding: 20px 0;
+    }
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    gap: 0 100px;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+
+    &Right {
+        justify-content: space-between;
+        flex: 1;
+        gap: 54px 0;
+
+        @media (max-width: 1024px) {
+           gap: 36px 0;
+        }
+    }
+
+    &WithLogos {
+        @media (max-width: 1024px) {
+            flex-direction: row;
+            gap: 0 40px;
+            margin-bottom: 40px;
+        }
+
+        @media (max-width: 430px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    display: block;
+    margin-bottom: 23px;
+
+    @media (max-width: 1024px) {
+        margin-bottom: 0;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+    }
+
+    &Nav {
+        @media (max-width: 1024px) {
+            gap: 30px 0;
+        }
+    }
+
+    &Contacts {
+        @media (max-width: 1024px) {
+            gap: 10px 0;
+        }
+    }
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 30px;
+
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0",
+    "image": "images/feedback/feedback-image-1.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "1",
+    "image": "images/feedback/feedback-image-2.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "2",
+    "image": "images/feedback/feedback-image-1.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "3",
+    "image": "images/feedback/feedback-image-2.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "4",
+    "image": "images/feedback/feedback-image-1.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "5",
+    "image": "images/feedback/feedback-image-2.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  },
+  {
+    "id": "6",
+    "image": "images/feedback/feedback-image-1.png",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!"
+  }
+]

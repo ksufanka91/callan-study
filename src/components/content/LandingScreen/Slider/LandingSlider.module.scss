@@ -1,0 +1,18 @@
+.landing {
+    cursor: pointer;
+
+    :global {
+        .slick-dots {
+            bottom: 60px;
+
+            @media (max-width: 430px) {
+                bottom: 110px;
+            }
+        }
+
+        .slick-prev,
+        .slick-next {
+            display: none !important;
+        }
+    }
+}

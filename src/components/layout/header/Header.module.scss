@@ -1,0 +1,72 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    &MenuOpen &Container {
+        @media (max-width: 1100px) {
+            background-color: var(--form-background);
+            transition: none;
+        }
+    }
+
+    &Container {
+        position: relative;
+        z-index: 100;
+        padding: 21px 0 29px;
+        transition: 0.1s ease;
+        transition-delay: 600ms;
+
+        @media (max-width: 1100px) {
+            padding: 10px 0;
+        }
+    }
+
+    &Box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .image {
+        @media (max-width: 1100px) {
+            width: 92px;
+            height: 45px;
+            order: 2;
+        }
+    }
+
+    .button {
+        @media (max-width: 1100px) {
+            display: none;
+        }
+    }
+
+    .burgerBox {
+        display: flex;
+        justify-content: flex-end;
+        order: 3;
+
+        @media (max-width: 1100px) {
+            width: 80px;
+        }
+    }
+
+    .burgerMenu {
+        display: none;
+
+        @media (max-width: 1100px) {
+            display: block;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+    .navigation {
+        @media (max-width: 1100px) {
+            display: none;
+        }
+    }
+}

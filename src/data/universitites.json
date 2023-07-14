@@ -1,0 +1,50 @@
+[
+  {
+    "id": "0",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "1",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "2",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "3",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "4",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "5",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "6",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  },
+  {
+    "id": "7",
+    "country": "Россия",
+    "quantity": "15 вузов",
+    "image": "images/universities/moscow.jpg"
+  }
+]

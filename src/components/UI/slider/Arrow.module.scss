@@ -1,0 +1,40 @@
+.arrow {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+    filter: drop-shadow(0px 0px 40px rgba(255, 255, 255, 0.5));
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    &:before {
+        content: none;
+    }
+
+    &:hover,
+    &:focus {
+        background: linear-gradient(213.88deg, #B1E2FF -67.78%, #68C7FF 175.48%);
+        opacity: 0.8;
+    }
+
+    &Disabled {
+        background: #D9D9D9;
+
+        &:hover,
+        &:focus {
+            background: #D9D9D9;
+        }
+    }
+
+    &Prev {
+        transform: rotate(180deg)  translate(-10px, 50%);
+    }
+
+    &Next {
+        transform: translate(-10px, -50%);
+    }
+}

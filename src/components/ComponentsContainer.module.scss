@@ -1,0 +1,10 @@
+.container {
+    background: url("../../public/images/background/main-bg.png") no-repeat 100% 100px;
+    background-size: cover;
+
+    @media (max-width: 430px) {
+        background: url("../../public/images/background/main-bg-mob.png") no-repeat center 70%;
+        background-size: 100%;
+        //background-color: red;
+    }
+}

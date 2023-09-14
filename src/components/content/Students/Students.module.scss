@@ -1,5 +1,9 @@
 .students {
-    padding-bottom: 120px;
+    padding-bottom: 220px;
+
+    @media (max-width: 430px) {
+        padding-bottom: 100px;
+    }
 
     .title {
         margin-bottom: 40px;
@@ -9,7 +13,6 @@
     .image {
         border-radius: 20px;
     }
-
 
     :global {
         .slick-dots {

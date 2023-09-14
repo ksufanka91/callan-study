@@ -6,10 +6,6 @@
 
     &Container {
         padding: 0 10px;
-
-        @media (max-width: 430px) {
-            padding: 0;
-        }
     }
 
     &Box {

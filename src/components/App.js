@@ -13,40 +13,50 @@ import Contacts from "./pages/Contacts";
 
 function App() {
     return (
+        /**
+         * Используем именно HashRouter чтобы навигация работала в GitHub Pages
+         */
         <HashRouter>
             <Routes>
-                <Route element={<Layout/>}>
+                <Route element={<Layout headerAbsolute={true} headerShadow={false}/>}>
                     <Route
                         path="/"
                         element={<Home/>}>
                     </Route>
+                </Route>
+
+                <Route element={<Layout/>}>
                     <Route
-                        path="/"
-                        element={<About/>}>
+                        path="about"
+                        element={<About/>}
+                    >
                     </Route>
                     <Route
-                        path="/"
+                        path="services"
                         element={<Services/>}>
                     </Route>
                     <Route
-                        path="/"
+                        path="universities"
                         element={<Universities/>}>
                     </Route>
                     <Route
-                        path="/"
+                        path="students"
                         element={<Students/>}>
                     </Route>
                     <Route
-                        path="/"
+                        path="news"
                         element={<News/>}>
                     </Route>
+                </Route>
+
+                <Route element={<Layout showContactUs={false} showContacts={false}/>}>
                     <Route
-                        path="/"
+                        path="contacts"
                         element={<Contacts/>}>
                     </Route>
                 </Route>
             </Routes>
-            <ScrollToTop />
+            <ScrollToTop/>
         </HashRouter>
     )
 }

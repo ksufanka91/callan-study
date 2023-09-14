@@ -25,7 +25,6 @@ const StudentsSlider = ({students}) => {
                     slidesToScroll: 1,
                 }
             },
-
             {
                 breakpoint: 768,
                 settings: {
@@ -33,7 +32,6 @@ const StudentsSlider = ({students}) => {
                     slidesToScroll: 1,
                 }
             },
-
             {
                 breakpoint: 430,
                 settings: {

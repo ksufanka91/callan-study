@@ -8,13 +8,15 @@ const Button = ({
                     type = 'button',   // 'button' | 'submit'
                     className = null,
                     icon = null,
+                    onClick = null,
                 }) => {
     return (
         <button className={classNames(styles.button, {
             [styles.buttonSecondary]: color === 'secondary',
             [styles.buttonWithIcon]: icon,
         }, className)}
-                type={type}>
+                type={type}
+                onClick={onClick}>
             {icon && <span className={styles.buttonIcon}>{icon}</span>}
 
             {children}

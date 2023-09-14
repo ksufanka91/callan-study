@@ -26,7 +26,6 @@ const FeedbackSlider = ({feedback}) => {
                     slidesToScroll: 1,
                 }
             },
-
             {
                 breakpoint: 600,
                 settings: {
@@ -47,7 +46,7 @@ const FeedbackSlider = ({feedback}) => {
     };
 
     return (
-        <Slider className={styles.feedback} {...settings}>
+        <Slider className={styles.slider} {...settings}>
             {feedback.map(slide => (
                     <FeedbackSlide key={slide.id} image={slide.image} title={slide.title} text={slide.text}/>
                 )

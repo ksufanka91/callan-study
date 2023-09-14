@@ -8,7 +8,7 @@ import HamburgerButton from "./MobileMenu/HamburgerButton";
 import styles from "./Header.module.scss";
 import className from "classnames";
 
-const Header = () => {
+const Header = ({absolute = false, shadow = true}) => {
     const [isMenuOpen, toggleMenu] = useState(false);
 
     function toggleMenuMode() {
@@ -22,7 +22,14 @@ const Header = () => {
     </svg>
 
     return (
-        <header className={className(styles.header, {[styles.headerMenuOpen]: isMenuOpen})}>
+        <header className={className(
+            styles.header,
+            {
+                [styles.headerMenuOpen]: isMenuOpen,
+                [styles.headerAbsolute]: absolute,
+                [styles.headerShadow]: shadow,
+            }
+        )}>
             <div className={styles.headerContainer}>
                 <div className="container">
                     <div className={styles.headerBox}>

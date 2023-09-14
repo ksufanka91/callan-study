@@ -1,0 +1,58 @@
+[
+  {
+    "id": "0",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "1",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "2",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "3",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "4",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "5",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  },
+  {
+    "id": "6",
+    "image": "images/pages/students/posts-students.jpg",
+    "title": "Александр Иванов",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!",
+    "icon": "images/icons/students-icon.svg",
+    "moreInfo": "Название университета"
+  }
+]

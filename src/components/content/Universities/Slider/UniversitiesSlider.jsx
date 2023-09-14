@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+import styles from "./UniversitiesSlider.module.scss";
 import UniversitiesSlide from "./UniversitiesSlide";
 
 import "slick-carousel/slick/slick.css";
@@ -47,7 +48,7 @@ const UniversitiesSlider = ({universities}) => {
 
 
     return (
-        <Slider {...settings}>
+        <Slider className={styles.slider} {...settings}>
             {universities.map(slide => (
                     <UniversitiesSlide key={slide.id} image={slide.image} country={slide.country}
                                        quantity={slide.quantity}/>

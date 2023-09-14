@@ -47,6 +47,10 @@
 .subtitle {
     margin: 0 auto 66px;
     text-align: center;
+
+    @media (max-width: 430px) {
+        font-size: 14px;
+    }
 }
 
 .item {

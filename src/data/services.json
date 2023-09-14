@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "image": "images/icons/aboutUs-icon-1.png",
+    "alt": "student-hat",
+    "text": "Поступление в зарубежные ВУЗы"
+  },
+  {
+    "id": "1",
+    "image": "images/icons/aboutUs-icon-2.png",
+    "alt": "file",
+    "text": "Оформление всех документов для поступления"
+  },
+  {
+    "id": "2",
+    "image": "images/icons/advantages-icon-2.png",
+    "alt": "passport",
+    "text": "Помощь в оформлении и получении визы"
+  },
+  {
+    "id": "3",
+    "image": "images/icons/aboutUs-icon-4.png",
+    "alt": "tickets",
+    "text": "Организация переезда и размещения студента"
+  },
+  {
+    "id": "4",
+    "image": "images/icons/aboutUs-icon-5.png",
+    "alt": "flags",
+    "text": "Организация языковых курсов и туристических поездок"
+  },
+  {
+    "id": "5",
+    "image": "images/icons/aboutUs-icon-6.png",
+    "alt": "translator",
+    "text": "Оформление и перевод документов на иностранный язык"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "0",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "1",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "2",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "3",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "4",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "5",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "6",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  },
+  {
+    "id": "7",
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit...;",
+    "image": "images/universities/moscow.jpg",
+    "icon": "images/icons/news-icon.svg",
+    "moreInfo": "Время чтения: <b>10 минут</b>"
+  }
+]

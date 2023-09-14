@@ -1,6 +1,8 @@
-const Contacts = () => {
+const Contacts = ({show = false}) => {
     return (
-        <div></div>
+        <div>
+
+        </div>
     )
 
 }

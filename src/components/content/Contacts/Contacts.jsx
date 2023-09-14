@@ -46,9 +46,7 @@ const Contacts = () => {
 
                 </div>
                 <Button icon={phoneIcon} className={styles.button}>Связаться с нами</Button>
-
             </div>
-
         </div>
     )
 };

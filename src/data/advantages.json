@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0",
+    "image": "images/icons/advantages-icon-1.png",
+    "alt": "suitcases",
+    "text": "<b>Сертифицированные услуги</b> нашей профессиональной команды"
+  },
+  {
+    "id": "1",
+    "image": "images/icons/advantages-icon-2.png",
+    "alt": "passport",
+    "text": "<b>Высокие</b> визовые ставки (98% наших студентов получили визу)"
+  },
+  {
+    "id": "2",
+    "image": "images/icons/advantages-icon-3.png",
+    "alt": "books",
+    "text": "Учеба в <b>престижных</b> университетах, которые входят в Топ-1000"
+  }
+]

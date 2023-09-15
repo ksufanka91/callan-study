@@ -1,0 +1,45 @@
+.contactsInfoCard {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 368px;
+    max-width: 100%;
+    padding: 42px;
+    margin-bottom: 38px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+.item {
+    display: flex;
+    gap: 14px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #52BFFF;
+    overflow: hidden;
+    font-size: 12px;
+    color: var(--form-background);
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 16px;
+    color: var(--additional-text-color);
+}
+
+.subtitle {
+    font-size: 14px;
+}

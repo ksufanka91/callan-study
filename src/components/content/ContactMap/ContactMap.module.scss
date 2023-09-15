@@ -1,0 +1,25 @@
+.contactMap {
+    background: url("../../../../public/images/pages/contactsMap/contacts-map.png") no-repeat;
+    text-align: center;
+    padding-bottom: 150px;
+
+    @media (max-width: 430px) {
+        background: url("../../../../public/images/pages/contactsMap/contacts-map-mob.png") no-repeat;
+    }
+}
+
+.mainTitle {
+    margin-bottom: 20px;
+
+    @media (max-width: 430px) {
+        margin-bottom: 10px;
+    }
+}
+
+.subtitle {
+    margin-bottom: 52px;
+
+    @media (max-width: 430px) {
+        font-size: 14px;
+    }
+}

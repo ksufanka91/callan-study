@@ -1,8 +1,12 @@
 .contact {
     background: url("../../../../public/images/background/contact-us-bg.png") no-repeat center 100px;
     background-size: cover;
-    padding: 100px 0 160px;
+    padding: 100px 0 240px;
 
+
+    @media (min-width: 1441px) {
+        background-size: contain;
+    }
 
     @media (max-width: 430px) {
         background: url("../../../../public/images/background/contact-us-bg-mob.png") no-repeat 0 bottom;

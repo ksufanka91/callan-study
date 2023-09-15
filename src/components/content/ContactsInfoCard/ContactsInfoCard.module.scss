@@ -9,6 +9,10 @@
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+
+    @media (max-width: 768px) {
+        margin: 0 auto 280px;
+    }
 }
 
 .item {

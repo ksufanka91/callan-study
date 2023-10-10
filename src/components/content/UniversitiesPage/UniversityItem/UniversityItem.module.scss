@@ -1,0 +1,146 @@
+.universityItem {
+    font-size: 12px;
+    display: flex;
+    padding: 12px 27px 12px 12px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.05);
+
+    @media (max-width: 1024px) {
+        width: 50%;
+        margin: 0 auto 20px;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.columnLeft {
+    width: 246px;
+    margin-right: 20px;
+
+    @media (max-width: 1024px) {
+        position: relative;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+}
+
+.columnCenter {
+    flex: 1;
+
+    @media (max-width: 1024px) {
+        margin-bottom: 30px;
+    }
+}
+
+.columnRight {
+    position: relative;
+    width: 160px;
+    padding-left: 27px;
+    padding-top: 6px;
+    text-align: center;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 70%;
+        border-left: 1px solid rgba(226, 237, 243, 0.50);
+        transform: rotate(0) translateY(-50%);
+
+        @media (max-width: 1024px) {
+            top: -46px;
+            left: 50%;
+            width: 50%;
+            transform: rotate(180deg) translateX(50%);
+            border-left: none;
+            border-top: 1px solid rgba(226, 237, 243, 0.50);
+        }
+    }
+}
+
+.image {
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+    @media (max-width: 1024px) {
+        text-align: center;
+    }
+}
+
+.infoBox {
+    display: flex;
+    gap: 10px 38px;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    gap: 12px;
+}
+
+.infoText {
+    margin-bottom: 6px;
+}
+
+.infoIcon {
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+}
+
+.text {
+    columns: 80px 2;
+    column-gap: 20px;
+}
+
+.locationBox {
+    display: flex;
+    gap: 12px;
+}
+
+.price {
+    color: var(--main-color);
+
+    font-size: 14px;
+
+    &Highlighted {
+        font-size: 20px;
+    }
+}
+
+.rating {
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+
+.ratingMob {
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+}
+
+
+

@@ -1,0 +1,55 @@
+.mainTitle {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(226, 237, 243, 0.50);
+    text-align: center;
+}
+
+.mainContent {
+    width: 75%;
+
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
+
+.mainContentBox {
+    display: flex;
+}
+
+.aside {
+    width: 25%;
+    margin-right: 15px;
+
+    @media (max-width: 1024px) {
+        width: 0;
+        margin-right: 0;
+    }
+}
+
+.button {
+    min-width: 240px;
+
+    @media (max-width: 430px) {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    &Box {
+        text-align: center;
+    }
+
+    &Filter {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: block;
+            margin: 0 auto 46px;
+        }
+
+        @media (max-width: 430px) {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+}

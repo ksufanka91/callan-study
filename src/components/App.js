@@ -9,6 +9,7 @@ import Universities from "./pages/Universities";
 import Students from "./pages/Students";
 import News from "./pages/News";
 import Contacts from "./pages/Contacts";
+import UniversityDetailPage from "./pages/UniversityDetailPage";
 
 
 function App() {
@@ -28,8 +29,7 @@ function App() {
                 <Route element={<Layout/>}>
                     <Route
                         path="about"
-                        element={<About/>}
-                    >
+                        element={<About/>}>
                     </Route>
                     <Route
                         path="services"
@@ -38,6 +38,10 @@ function App() {
                     <Route
                         path="universities"
                         element={<Universities/>}>
+                    </Route>
+                    <Route
+                        path="universities/:id"
+                        element={<UniversityDetailPage/>}>
                     </Route>
                     <Route
                         path="students"

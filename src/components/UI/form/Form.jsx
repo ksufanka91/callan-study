@@ -41,7 +41,7 @@ const Form = () => {
                 </div>
                 <form onSubmit={handleSubmit} className={styles.contactForm}>
                     <Input type='text' placeholder="Ваше имя" icon={userIcon}/>
-                    <Input type='phone' placeholder="+7 (___) ___ - __ - __" icon={phoneIcon}/>
+                    <Input type='tel' placeholder="+7 (___) ___ - __ - __" icon={phoneIcon}/>
                     <Input type='textarea' placeholder="Дополнительные комментарии" icon={commentIcon}/>
                     <Button children="Отправить" icon={arrowIcon} className={styles.button}/>
                 </form>

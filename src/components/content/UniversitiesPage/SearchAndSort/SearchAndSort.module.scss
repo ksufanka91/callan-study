@@ -1,0 +1,46 @@
+.search {
+    min-width: 368px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        min-width: initial;
+        max-width: 100%;
+    }
+}
+
+.searchAndSortBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.sortBox {
+    display: flex;
+    gap: 26px;
+
+    @media (max-width: 1024px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.image {
+    width: 20px;
+    height: 20px;
+}

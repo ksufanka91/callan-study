@@ -1,0 +1,20 @@
+.checkbox {
+    display: none;
+}
+
+.fake {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #e2edf3;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: background 0.3s;
+}
+
+.checkbox:checked + .fake {
+    background: var(--main-color) url("../../../../../public/images/icons/checkbox-tick.svg") no-repeat center;
+}

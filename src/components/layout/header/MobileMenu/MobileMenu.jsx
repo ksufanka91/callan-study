@@ -14,7 +14,7 @@ const MobileMenu = ({open}) => {
     return (
         <div className={classNames(styles.mobileMenu, {[styles.mobileMenuOpen]: open})}>
             <Nav classNames={styles.nav}/>
-            <Button icon={icon} children="Оставить заявку" className={styles.button} color={'secondary'}/>
+            <Button icon={icon} className={styles.button} color={'secondary'}>Оставить заявку</Button>
             <ContactInfo
                 address="г. Город ул. Улица, 24 (Офис 24)"
                 schedule="Пн-Пт 9:00 - 18:00"

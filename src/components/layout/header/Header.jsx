@@ -1,6 +1,6 @@
-import {useRef, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock';
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import Socials from "../../UI/Socials";
 import Nav from "./Nav";
 import HamburgerButton from "./MobileMenu/HamburgerButton";
@@ -13,11 +13,18 @@ import styles from "./Header.module.scss";
 const Header = ({absolute = false, shadow = true}) => {
     const refMenu = useRef();
 
-    const [isMenuOpen, toggleMenu] = useState(false);
+    const [isMenuOpen, setIsOpenMenu] = useState(false);
+    const {pathname} = useLocation();
 
+    // закрываем меню, если была изменена страница (выбрали страницу в меню)
+    useEffect(() => {
+        if (isMenuOpen) {
+            toggleMenuMode();
+        }
+    }, [pathname]);
 
     function toggleMenuMode() {
-        toggleMenu(!isMenuOpen);
+        setIsOpenMenu(!isMenuOpen);
 
         if (isMenuOpen) {
             enableBodyScroll(refMenu.current);

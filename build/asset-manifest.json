@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.0b74abde.css",
-    "main.js": "./static/js/main.47c4b079.js",
+    "main.css": "./static/css/main.4ad3b262.css",
+    "main.js": "./static/js/main.70b1505c.js",
     "static/media/main-bg.png": "./static/media/main-bg.76cb011e4cf2705db828.png",
     "static/media/contact-us-bg.png": "./static/media/contact-us-bg.6b6301886091184593af.png",
     "static/media/landing.png": "./static/media/landing.5a76f40d19295e95870a.png",
@@ -23,15 +23,16 @@
     "static/media/accordion-plus.svg": "./static/media/accordion-plus.84cf3badd6034858e875.svg",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "static/media/close.svg": "./static/media/close.678f5c41226b758388b1.svg",
+    "static/media/tick.svg": "./static/media/tick.8f7f1924b140e5e5db48.svg",
     "static/media/accordion-minus.svg": "./static/media/accordion-minus.dd4b828b6de430ba54d4.svg",
     "static/media/checkbox-tick.svg": "./static/media/checkbox-tick.70d205a5937b0d289c96.svg",
     "index.html": "./index.html",
     "static/media/arrow-down.svg": "./static/media/arrow-down.21f7a9352fc30c8234ba.svg",
-    "main.0b74abde.css.map": "./static/css/main.0b74abde.css.map",
-    "main.47c4b079.js.map": "./static/js/main.47c4b079.js.map"
+    "main.4ad3b262.css.map": "./static/css/main.4ad3b262.css.map",
+    "main.70b1505c.js.map": "./static/js/main.70b1505c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b74abde.css",
-    "static/js/main.47c4b079.js"
+    "static/css/main.4ad3b262.css",
+    "static/js/main.70b1505c.js"
   ]
 }

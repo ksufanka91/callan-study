@@ -1,18 +1,29 @@
-import {useState} from "react";
+import {useRef, useState} from "react";
+import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock';
+import {Link} from "react-router-dom";
 import Socials from "../../UI/Socials";
 import Nav from "./Nav";
+import HamburgerButton from "./MobileMenu/HamburgerButton";
 import Button from "../../UI/Button/Button";
 import MobileMenu from "./MobileMenu/MobileMenu";
-import HamburgerButton from "./MobileMenu/HamburgerButton";
 
-import styles from "./Header.module.scss";
 import className from "classnames";
+import styles from "./Header.module.scss";
 
 const Header = ({absolute = false, shadow = true}) => {
+    const refMenu = useRef();
+
     const [isMenuOpen, toggleMenu] = useState(false);
+
 
     function toggleMenuMode() {
         toggleMenu(!isMenuOpen);
+
+        if (isMenuOpen) {
+            enableBodyScroll(refMenu.current);
+        } else {
+            disableBodyScroll(refMenu.current);
+        }
     }
 
     const icon = <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +44,10 @@ const Header = ({absolute = false, shadow = true}) => {
             <div className={styles.headerContainer}>
                 <div className="container">
                     <div className={styles.headerBox}>
-                        <img src="images/logos/logo.svg" alt="main site logo" className={styles.image}/>
+                        <Link to="/">
+                            <img src="images/logos/logo.svg" alt="main site logo" className={styles.image}/>
+                        </Link>
+
                         <Socials/>
                         <Nav classNames={styles.navigation}/>
                         <Button icon={icon} color={'secondary'} className={styles.button}>
@@ -47,7 +61,7 @@ const Header = ({absolute = false, shadow = true}) => {
                 </div>
             </div>
 
-            <MobileMenu open={isMenuOpen}/>
+            <MobileMenu ref={refMenu} open={isMenuOpen}/>
         </header>
     )
 }

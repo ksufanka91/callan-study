@@ -12,7 +12,7 @@ function Layout({headerAbsolute, headerShadow, showContactUs = true, showContact
             <Outlet/>
 
             {showContactUs && <ContactUs/>}
-            {showContacts &&  <Contacts/>}
+            {showContacts && <Contacts/>}
             <Footer/>
         </>
     )

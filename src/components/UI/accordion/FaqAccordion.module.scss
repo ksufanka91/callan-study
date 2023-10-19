@@ -1,15 +1,6 @@
-.block {
-    width: 536px;
-    max-width: 100%;
-    padding: 27px 39px 27px 27px;
-    margin-bottom: 20px;
-    background: #FFFFFF;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
-    cursor: pointer;
-
-    @media (max-width: 768px) {
-        width: 100%;
+:global {
+    .accordion {
+        border:  none;
     }
 }
 
@@ -28,40 +19,14 @@
     }
 }
 
-.button {
-    position: relative;
-
-    @media (max-width: 768px) {
-        font-size: 14px;
-    }
-
-    &[aria-expanded="true"] {
-        &:after {
-            content: url("../../../../public/images/controls/accordion-minus.svg");
-        }
-    }
-
-    &:after {
-        content: url("../../../../public/images/controls/accordion-plus.svg");
-        width: 48px;
-        height: 48px;
-        position: absolute;
-        right: -38px;
-        top: 50%;
-        transform: translate(50%, -50%);
-
-        @media (max-width: 768px) {
-            width: 40px;
-            height: 40px;
-        }
-    }
+.column {
+    flex: 1;
 }
 
-.panel {
-    padding: 0;
-    font-size: 14px;
+.faqItem {
+    width: 536px;
 
-    @media (max-width: 768px) {
-        font-size: 12px;
+    @media (max-width: 1200px) {
+        width: 100%;
     }
 }

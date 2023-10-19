@@ -1,30 +1,30 @@
-import {Accordion} from 'react-accessible-accordion';
+import {Accordion as AccordionLib} from 'react-accessible-accordion';
 
 import 'react-accessible-accordion/dist/fancy-example.css';
 import styles from "./FaqAccordion.module.scss";
-import FaqAccordionItem from "./FaqAccordionItem";
+import classNames from "classnames";
+import AccordionItem from "./AccordionItem";
 
-const FaqAccordion = ({faq}) => {
-
+const FaqAccordion = ({items}) => {
     const settings = {
         allowMultipleExpanded: true,
         allowZeroExpanded: true,
     };
 
     return (
-        <Accordion className={styles.row} {...settings}>
-            <div>
-                {faq.filter(i => i.id % 2 !== 0).map(item => (
-                    <FaqAccordionItem question={item.question} answer={item.answer} key={item.id}/>
+        <AccordionLib className={styles.row} {...settings}>
+            <div className={styles.column}>
+                {items.filter(i => i.id % 2 !== 0).map(item => (
+                    <AccordionItem title={item.question} description={<p>{item.answer}</p>} key={item.id} className={styles.faqItem}/>
                 ))}
             </div>
 
-            <div>
-                {faq.filter(i => i.id % 2 === 0).map(item => (
-                    <FaqAccordionItem question={item.question} answer={item.answer} key={item.id}/>
+            <div className={styles.column}>
+                {items.filter(i => i.id % 2 === 0).map(item => (
+                    <AccordionItem title={item.question} description={<p>{item.answer}</p>} key={item.id} className={styles.block}/>
                 ))}
             </div>
-        </Accordion>
+        </AccordionLib>
     )
 };
 

@@ -2,7 +2,8 @@
   {
     "id": "1",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "Stanford University",
     "level": [
       "Бакалавриат",
       "Магистратура"
@@ -13,17 +14,36 @@
       "Архитектура",
       "Архитектура",
       "Архитектура",
+      "Архитектура",
+      "Архитектура",
+      "Архитектура",
       "Архитектура"
+
     ],
-    "price": "3000 €",
-    "country": "Россия",
-    "city": "Москва",
-    "rating": 5
+    "price": "8000 €",
+    "country": "США",
+    "city": "Кембридж",
+    "rating": 5,
+    "lang": "Английский",
+    "year": 1885,
+    "s_count": 17246,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   },
   {
     "id": "2",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "Peking University",
     "level": [
       "Бакалавриат",
       "Магистратура",
@@ -39,14 +59,29 @@
       "Архитектура"
     ],
     "price": "4000 €",
-    "country": "Россия",
-    "city": "Москва",
-    "rating": 4
+    "country": "Китай",
+    "city": "Пекин",
+    "rating": 4,
+    "lang": "Китайский, Английский",
+    "year": 1898,
+    "s_count": 32777,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   },
   {
     "id": "3",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "The University of Tokyo",
     "level": [
       "Бакалавриат"
     ],
@@ -60,14 +95,29 @@
       "Архитектура"
     ],
     "price": "3500 €",
-    "country": "Россия",
-    "city": "Москва",
-    "rating": 0
+    "country": "Япония",
+    "city": "Токио",
+    "rating": 0,
+    "lang": "Японский, Английский",
+    "year": 1877,
+    "s_count": 27011 ,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   },
   {
     "id": "4",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "Moscow State University",
     "level": [
       "Бакалавриат",
       "Магистратура",
@@ -85,12 +135,27 @@
     "price": "5000 €",
     "country": "Россия",
     "city": "Москва",
-    "rating": 5
+    "rating": 5,
+    "lang": "Русский, Английский",
+    "year": 1755,
+    "s_count": 38150,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   },
   {
     "id": "5",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "McGill University",
     "level": [
       "Бакалавриат",
       "Магистратура"
@@ -105,14 +170,29 @@
       "Архитектура"
     ],
     "price": "2000 €",
-    "country": "Россия",
-    "city": "Москва",
-    "rating": 4
+    "country": "Канада",
+    "city": "Монреаль",
+    "rating": 4,
+    "lang": "Английский",
+    "year": 1821,
+    "s_count": 34840,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   },
   {
     "id": "6",
     "image": "images/pages/universities/preview.jpg",
-    "name": "Название университета",
+    "imageDetail": "images/universities/university.jpg",
+    "name": "Sorbonne University",
     "level": [
       "Бакалавриат",
       "Магистратура"
@@ -127,8 +207,22 @@
       "Архитектура"
     ],
     "price": "4300 €",
-    "country": "Россия",
-    "city": "Москва",
-    "rating": 5
+    "country": "Франция",
+    "city": "Париж",
+    "rating": 5,
+    "lang": "Французский, Английский",
+    "year": 1971,
+    "s_count": 23271,
+    "living_cost": "500 €",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscing elit.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsumdolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consecteturadipiscingelit. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididuntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Loremipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimadminim veniam, quis nostrud exercitation.</p>",
+    "documents": [
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа",
+      "Название документа"
+    ],
+    "gallery": ["images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg", "images/universities/university.jpg"]
   }
 ]

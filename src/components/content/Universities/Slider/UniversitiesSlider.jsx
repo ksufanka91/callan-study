@@ -25,7 +25,6 @@ const UniversitiesSlider = ({universities}) => {
                     slidesToScroll: 1,
                 }
             },
-
             {
                 breakpoint: 768,
                 settings: {
@@ -33,7 +32,6 @@ const UniversitiesSlider = ({universities}) => {
                     slidesToScroll: 1,
                 }
             },
-
             {
                 breakpoint: 430,
                 settings: {
@@ -45,7 +43,6 @@ const UniversitiesSlider = ({universities}) => {
             }
         ]
     };
-
 
     return (
         <Slider className={styles.slider} {...settings}>

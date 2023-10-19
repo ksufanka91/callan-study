@@ -16,8 +16,6 @@ const UniversityDetailPage = () => {
         // return <Page404/>
     }
 
-    console.log(university)
-
     return (
         <UniversityDetail university={university}/>
     );

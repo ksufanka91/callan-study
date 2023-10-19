@@ -1,0 +1,119 @@
+.mainTitle {
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(226, 237, 243, 0.50);
+    text-align: center;
+
+    @media (max-width: 768px) {
+        padding-bottom: 16px;
+    }
+}
+
+.mainContentBox {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.mainContent {
+    width: 66%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.mainImage {
+    margin-bottom: 84px;
+    border-radius: 20px;
+
+    @media (max-width: 430px) {
+        display: block;
+        width: calc(100% + 20px);
+        max-width: none;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -20px;
+        border-radius: 0;
+    }
+}
+
+.aboutUniversity {
+    margin-bottom: 60px;
+}
+
+.paragraph {
+    font-size: 14px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.aside {
+    width: 32%;
+
+    &List {
+        @media (max-width: 1200px) {
+            padding-left: 0;
+        }
+
+        &Item {
+            position: relative;
+            font-size: 14px;
+            margin-bottom: 8px;
+            padding-left: 28px;
+
+            &:before {
+                position: absolute;
+                content: '';
+                background: url("../../../../public/images/icons/tick.svg") no-repeat;
+                width: 20px;
+                height: 20px;
+                left: 0;
+            }
+        }
+    }
+}
+
+.documents {
+
+    @media (max-width: 1200px) {
+        margin-bottom: 60px;
+    }
+}
+
+.documentsTitle {
+    text-align: center;
+    margin-bottom: 16px;
+
+    @media (max-width: 1200px) {
+        text-align: left;
+    }
+}
+
+.gallery {
+    margin-bottom: 60px;
+
+    &Title {
+        margin-bottom: 20px;
+    }
+}
+
+.desktopHidden {
+    display: block;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.show {
+    display: none;
+
+    @media (max-width: 1200px) {
+        display: block;
+    }
+}

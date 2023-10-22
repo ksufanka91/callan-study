@@ -1,6 +1,11 @@
-import {HashRouter, Route, Routes} from "react-router-dom";
+import {
+    createHashRouter,
+    createRoutesFromElements,
+    Route,
+    RouterProvider,
+} from "react-router-dom";
+
 import Layout from "./layout/Layout/Layout";
-import ScrollToTop from "./UI/ScrollToTop";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,45 +16,84 @@ import News from "./pages/News";
 import Contacts from "./pages/Contacts";
 import UniversityDetailPage from "./pages/UniversityDetailPage";
 
+import {
+    loadHome,
+    loadUniversities,
+    loadUniversity,
+    loadAbout,
+    loadServices,
+    loadNews,
+    loadStudents
+} from "../loaders/loaders";
+
 
 function App() {
-    return (
-        /**
-         * Используем именно HashRouter чтобы навигация работала в GitHub Pages
-         */
-        <HashRouter>
-            <Routes>
+    /**
+     * Используем именно HashRouter чтобы навигация работала в GitHub Pages
+     */
+    const router = createHashRouter(
+        createRoutesFromElements(
+            <>
                 <Route element={<Layout headerAbsolute={true} headerShadow={false}/>}>
                     <Route
                         path="/"
-                        element={<Home/>}>
+                        element={<Home/>}
+                        loader={loadHome}
+                        handle={{
+                            crumb: () => "Главная",
+                        }}>
                     </Route>
                 </Route>
 
                 <Route element={<Layout/>}>
                     <Route
                         path="about"
-                        element={<About/>}>
+                        element={<About/>}
+                        loader={loadAbout}
+                        handle={{
+                            crumb: () => "О нас",
+                        }}>
                     </Route>
                     <Route
                         path="services"
-                        element={<Services/>}>
+                        element={<Services/>}
+                        loader={loadServices}
+                        handle={{
+                            crumb: () => "Услуги",
+                        }}>
                     </Route>
                     <Route
                         path="universities"
-                        element={<Universities/>}>
+                        element={<Universities/>}
+                        loader={loadUniversities}
+                        handle={{
+                            crumb: () => "Университеты",
+                        }}>
                     </Route>
                     <Route
                         path="universities/:id"
-                        element={<UniversityDetailPage/>}>
+                        element={<UniversityDetailPage/>}
+                        loader={loadUniversity}
+                        handle={{
+                            crumb: (data) => data.university?.name,
+                        }}>
                     </Route>
+
                     <Route
                         path="students"
-                        element={<Students/>}>
+                        element={<Students/>}
+                        loader={loadStudents}
+                        handle={{
+                            crumb: () => "Студенты",
+                        }}>
                     </Route>
                     <Route
                         path="news"
-                        element={<News/>}>
+                        element={<News/>}
+                        loader={loadNews}
+                        handle={{
+                            crumb: () => "Новости",
+                        }}>
                     </Route>
                 </Route>
 
@@ -59,9 +103,12 @@ function App() {
                         element={<Contacts/>}>
                     </Route>
                 </Route>
-            </Routes>
-            <ScrollToTop/>
-        </HashRouter>
+            </>
+        )
+    );
+
+    return (
+        <RouterProvider router={router}/>
     )
 }
 

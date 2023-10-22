@@ -3,6 +3,7 @@ import Header from "../header/Header"
 import Footer from "../Footer/Footer"
 import ContactUs from "../../content/ContactUs/ContactUs";
 import Contacts from "../../content/Contacts/Contacts";
+import ScrollToTop from "../../UI/ScrollToTop";
 
 function Layout({headerAbsolute, headerShadow, showContactUs = true, showContacts = true}) {
     return (
@@ -14,6 +15,7 @@ function Layout({headerAbsolute, headerShadow, showContactUs = true, showContact
             {showContactUs && <ContactUs/>}
             {showContacts && <Contacts/>}
             <Footer/>
+            <ScrollToTop/>
         </>
     )
 }

@@ -1,7 +1,7 @@
 import {useState} from "react";
-import styles from "./Posts.module.scss";
-
 import Button from "../Button/Button";
+
+import styles from "./Posts.module.scss";
 
 
 const Posts = ({items, mainTitle}) => {

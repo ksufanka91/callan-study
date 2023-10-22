@@ -1,9 +1,12 @@
 import UniversitiesPage from "../content/UniversitiesPage/UniversitiesPage";
+import {useLoaderData} from "react-router-dom";
 
 const Universities = () => {
+    const {universities, filters} = useLoaderData();
+
     return (
         <div>
-            <UniversitiesPage/>
+            <UniversitiesPage universities={universities} filters={filters}/>
         </div>
     )
 

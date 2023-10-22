@@ -28,7 +28,7 @@ const UniversityDetailSlider = ({universities}) => {
     return (
         <Slider className={styles.slider} {...settings}>
             {universities.gallery.map((slide, index) => (
-                <div className={styles.slideContainer}>
+                <div key={index} className={styles.slideContainer}>
                     <img src={slide} alt={slide} key={index} className={styles.image}/>
                 </div>
                 )

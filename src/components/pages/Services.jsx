@@ -1,8 +1,9 @@
 import CardsWithInfo from "../UI/CardsWithInfo/CardsWithInfo";
-import services from "../../data/services.json";
-
+import {useLoaderData} from "react-router-dom";
 
 const Services = () => {
+    const {services} = useLoaderData();
+
     return (
         <div className="container">
             <CardsWithInfo

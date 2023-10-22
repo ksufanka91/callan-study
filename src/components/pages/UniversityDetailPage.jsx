@@ -1,15 +1,9 @@
-import {useMatch} from "react-router-dom";
+import {useLoaderData} from "react-router-dom";
 
-import universities from "../../data/university-data.json";
 import UniversityDetail from "../content/UniversityDetail/UniversityDetail";
 
 const UniversityDetailPage = () => {
-
-    const match = useMatch("universities/:id");
-
-    const id = match.params.id; // string
-
-    const university = universities.find(u => u.id === id);
+    const {university} = useLoaderData();
 
     if (!university) {
         return <h2>404</h2>

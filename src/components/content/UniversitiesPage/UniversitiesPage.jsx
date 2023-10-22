@@ -7,10 +7,8 @@ import Button from "../../UI/Button/Button";
 
 import styles from "./UniversitiesPage.module.scss";
 
-import filters from "../../../data/universities-filters.json";
-import universities from "../../../data/university-data.json";
 
-const UniversitiesPage = () => {
+const UniversitiesPage = ({universities, filters}) => {
     const refFilter = useRef();
 
     const arrowIcon =

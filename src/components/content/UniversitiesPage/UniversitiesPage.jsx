@@ -1,4 +1,5 @@
 import {useRef, useState} from "react";
+import {useLoaderData} from "react-router-dom";
 import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock';
 import Filters from "../Filters/Filters";
 import SearchAndSort from "./SearchAndSort/SearchAndSort";
@@ -8,7 +9,9 @@ import Button from "../../UI/Button/Button";
 import styles from "./UniversitiesPage.module.scss";
 
 
-const UniversitiesPage = ({universities, filters}) => {
+const UniversitiesPage = () => {
+    const {universities, filters} = useLoaderData();
+
     const refFilter = useRef();
 
     const arrowIcon =

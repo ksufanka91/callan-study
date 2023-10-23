@@ -3,8 +3,8 @@ import styles from "./ContactsInfoCard.module.scss";
 const ContactsInfoCard = ({items}) => {
     return (
         <div className={styles.contactsInfoCard}>
-            {items.map(item => (
-                <div className={styles.item}>
+            {items.map((item, index) => (
+                <div className={styles.item} key={index}>
                     <div className={styles.count}>
                         {item.id}
                     </div>

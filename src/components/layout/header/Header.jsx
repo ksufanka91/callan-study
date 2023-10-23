@@ -52,7 +52,7 @@ const Header = ({absolute = false, shadow = true}) => {
                 <div className="container">
                     <div className={styles.headerBox}>
                         <Link to="/">
-                            <img src="images/logos/logo.svg" alt="main site logo" className={styles.image}/>
+                            <img src="images/logos/logo.png" alt="main site logo" className={styles.image} width="110" height="54"/>
                         </Link>
 
                         <Socials/>

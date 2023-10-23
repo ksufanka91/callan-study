@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="container">
                 <div className={styles.columns}>
                     <div className={className(styles.column, styles.columnWithLogos)}>
-                        <img src="images/footer/footer-logo-1.svg" alt="footer-logo" className={styles.image}/>
-                        <img src="images/footer/footer-logo-2.svg" alt="footer-logo" className={styles.image}/>
+                        <img src="images/footer/footer-logo-1.png" alt="footer-logo" className={styles.image} width="126" height="56"/>
+                        <img src="images/footer/footer-logo-2.png" alt="footer-logo" className={styles.image} width="126" height="45"/>
                     </div>
                     <div className={className(styles.column, styles.columnRight)}>
                         <div className={styles.row}>

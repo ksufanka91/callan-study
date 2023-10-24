@@ -1,5 +1,5 @@
-import Posts from "../UI/Posts/Posts";
 import {useLoaderData} from "react-router-dom";
+import Posts from "../UI/Posts/Posts";
 
 const News = () => {
     const {news} = useLoaderData();

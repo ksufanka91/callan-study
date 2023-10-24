@@ -1,8 +1,9 @@
 import Slider from "react-slick";
-import styles from "./UniversityDetailSlider.module.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Arrow from "../../../UI/slider/Arrow";
+import styles from "./UniversityDetailSlider.module.scss";
+
 
 const UniversityDetailSlider = ({universities}) => {
     const settings = {

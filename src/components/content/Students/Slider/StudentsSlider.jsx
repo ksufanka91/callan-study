@@ -1,11 +1,10 @@
 import Slider from "react-slick";
-import StudentsSlide from "./StudentsSlide";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import StudentsSlide from "./StudentsSlide";
 import Arrow from "../../../UI/slider/Arrow";
-
 import styles from './StudentsSlider.module.scss';
+
 
 const StudentsSlider = ({students}) => {
     const settings = {

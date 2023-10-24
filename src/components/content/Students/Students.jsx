@@ -1,5 +1,6 @@
-import styles from "./Students.module.scss";
 import StudentsSlider from "./Slider/StudentsSlider";
+import styles from "./Students.module.scss";
+
 
 const Students = ({students}) => {
     return (

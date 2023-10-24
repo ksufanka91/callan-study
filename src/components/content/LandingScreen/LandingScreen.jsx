@@ -1,6 +1,7 @@
-import styles from "./LandingScreen.module.scss";
 import LandingSlider from "./Slider/LandingSlider";
 import ContactInfo from "../ContactInfo/ContactInfo";
+import styles from "./LandingScreen.module.scss";
+
 
 const LandingScreen = ({landing}) => {
     return (

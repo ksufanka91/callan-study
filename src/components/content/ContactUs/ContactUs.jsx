@@ -1,5 +1,5 @@
-import styles from "./ContactUs.module.scss";
 import Form from "../../UI/form/Form";
+import styles from "./ContactUs.module.scss";
 
 
 const ContactUs = () => {

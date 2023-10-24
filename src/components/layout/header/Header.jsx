@@ -1,13 +1,12 @@
 import {useEffect, useRef, useState} from "react";
 import {disableBodyScroll, enableBodyScroll} from 'body-scroll-lock';
 import {Link, useLocation} from "react-router-dom";
+import className from "classnames";
 import Socials from "../../UI/Socials";
 import Nav from "./Nav";
 import HamburgerButton from "./MobileMenu/HamburgerButton";
 import Button from "../../UI/Button/Button";
 import MobileMenu from "./MobileMenu/MobileMenu";
-
-import className from "classnames";
 import styles from "./Header.module.scss";
 
 const Header = ({absolute = false, shadow = true}) => {

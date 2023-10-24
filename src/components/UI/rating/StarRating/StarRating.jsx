@@ -1,6 +1,6 @@
-import styles from "./StarRating.module.scss";
 import className from "classnames";
 import Star from "../Star/Star";
+import styles from "./StarRating.module.scss";
 
 
 const StarRating = ({rating, classNames}) => {

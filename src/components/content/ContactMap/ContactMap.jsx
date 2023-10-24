@@ -1,7 +1,7 @@
 import ContactsInfo from "../ContactsInfo/ContactsInfo";
-import styles from "./ContactMap.module.scss";
 import ContactsInfoCard from "../ContactsInfoCard/ContactsInfoCard";
 import contactsInfoCard from "../../../data/contactsInfoCard.json";
+import styles from "./ContactMap.module.scss";
 
 
 const ContactMap = ({mainTitle, subtitle}) => {
@@ -14,7 +14,6 @@ const ContactMap = ({mainTitle, subtitle}) => {
                 <ContactsInfoCard items={contactsInfoCard}/>
                 <ContactsInfo/>
             </div>
-
         </div>
     );
 };

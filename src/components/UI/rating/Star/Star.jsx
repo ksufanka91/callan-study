@@ -4,7 +4,8 @@ const Star = ({selected = false}) => {
 
     return (
         <span className={styles.image}>
-             {selected ? <img src="images/starRating/star-filled.svg" alt="star"/> : <img src="images/starRating/star-empty.svg" alt="star"/>}
+             {selected ? <img src="images/starRating/star-filled.svg" alt="star"/> :
+                 <img src="images/starRating/star-empty.svg" alt="star"/>}
         </span>
     );
 };

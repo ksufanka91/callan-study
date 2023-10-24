@@ -1,5 +1,6 @@
-import styles from "./Faq.module.scss";
 import FaqAccordion from "../../UI/accordion/FaqAccordion";
+import styles from "./Faq.module.scss";
+
 
 const Faq = ({faq}) => {
 

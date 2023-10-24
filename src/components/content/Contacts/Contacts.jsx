@@ -1,6 +1,7 @@
-import styles from "./Contacts.module.scss";
 import className from "classnames";
 import ContactsInfo from "../ContactsInfo/ContactsInfo";
+import styles from "./Contacts.module.scss";
+
 
 const Contacts = () => {
     return (

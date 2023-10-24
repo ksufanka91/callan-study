@@ -1,9 +1,9 @@
-import styles from "./MobileMenu.module.scss";
+import {forwardRef} from "react";
 import Nav from "../Nav";
 import Button from "../../../UI/Button/Button";
 import ContactInfo from "../../../content/ContactInfo/ContactInfo";
 import classNames from "classnames";
-import {forwardRef} from "react";
+import styles from "./MobileMenu.module.scss";
 
 const MobileMenu = forwardRef(({open}, ref) => {
     const icon = <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">

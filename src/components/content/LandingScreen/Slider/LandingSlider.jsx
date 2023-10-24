@@ -1,10 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LandingSlide from "./LandingSlide";
 import styles from "./LandingSlider.module.scss";
 
-
-import LandingSlide from "./LandingSlide";
 
 const LandingSlider = ({landing}) => {
     const settings = {

@@ -1,8 +1,8 @@
 import classNames from "classnames";
 import styles from "./Arrow.module.scss";
 
-function Arrow({className, onClick, direction = 'prev'}) {
 
+function Arrow({className, onClick, direction = 'prev'}) {
     const disabled = className?.includes("slick-disabled");
 
     return (

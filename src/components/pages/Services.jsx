@@ -1,5 +1,5 @@
-import CardsWithInfo from "../UI/CardsWithInfo/CardsWithInfo";
 import {useLoaderData} from "react-router-dom";
+import CardsWithInfo from "../UI/CardsWithInfo/CardsWithInfo";
 
 const Services = () => {
     const {services} = useLoaderData();

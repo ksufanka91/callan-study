@@ -1,12 +1,6 @@
-import {
-    createHashRouter,
-    createRoutesFromElements,
-    Route,
-    RouterProvider,
-} from "react-router-dom";
+import {createHashRouter, RouterProvider,} from "react-router-dom";
 
 import Layout from "./layout/Layout/Layout";
-
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
@@ -15,18 +9,16 @@ import Students from "./pages/Students";
 import News from "./pages/News";
 import Contacts from "./pages/Contacts";
 import UniversityDetailPage from "./pages/UniversityDetailPage";
-
-import {
-    loadHome,
-    loadUniversities,
-    loadUniversity,
-    loadAbout,
-    loadServices,
-    loadNews,
-    loadStudents
-} from "../loaders/loaders";
 import UniversitiesPage from "./content/UniversitiesPage/UniversitiesPage";
-
+import {
+    loadAbout,
+    loadHome,
+    loadNews,
+    loadServices,
+    loadStudents,
+    loadUniversities,
+    loadUniversity
+} from "../loaders/loaders";
 
 function App() {
     /**

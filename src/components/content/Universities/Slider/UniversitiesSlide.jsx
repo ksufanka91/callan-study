@@ -1,5 +1,6 @@
 import styles from "./UniversitiesSlide.module.scss";
 
+
 const UniversitiesSlide = ({image, country, quantity}) => {
     return (
         <div className={styles.slideContainer}>

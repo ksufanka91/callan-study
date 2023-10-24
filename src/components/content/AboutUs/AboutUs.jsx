@@ -1,12 +1,13 @@
 import styles from "./AboutUs.module.scss";
 
+
 const AboutUs = () => {
     return (
         <>
             <h1 className="visuallyHidden">О нас</h1>
             <h2 className={styles.title}>О нас</h2>
             <div className={styles.aboutUsBox}>
-                <div className={styles.textBox}>
+                <div>
                     <p className={styles.text}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

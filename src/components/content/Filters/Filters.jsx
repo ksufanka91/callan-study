@@ -5,13 +5,12 @@ import {
     AccordionItemHeading,
     AccordionItemPanel
 } from "react-accessible-accordion";
-
+import {forwardRef} from "react";
 import classNames from "classnames";
-
-import styles from "./Filters.module.scss";
 import Checkbox from "../../UI/form/Checkbox/Checkbox";
 import Button from "../../UI/Button/Button";
-import {forwardRef} from "react";
+import styles from "./Filters.module.scss";
+
 
 const Filters = forwardRef(({filters, open, hideFilter}, ref) => {
     const settings = {

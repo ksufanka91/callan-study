@@ -1,10 +1,9 @@
 import Slider from "react-slick";
-import styles from "./UniversitiesSlider.module.scss";
-import UniversitiesSlide from "./UniversitiesSlide";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Arrow from "../../../UI/slider/Arrow";
+import UniversitiesSlide from "./UniversitiesSlide";
+import styles from "./UniversitiesSlider.module.scss";
 
 
 const UniversitiesSlider = ({universities}) => {

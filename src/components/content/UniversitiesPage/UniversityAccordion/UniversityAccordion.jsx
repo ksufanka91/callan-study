@@ -2,6 +2,7 @@ import {Accordion as AccordionLib} from 'react-accessible-accordion';
 import AccordionItem from "../../../UI/accordion/AccordionItem";
 import styles from './UniversityAccordion.module.scss';
 
+
 const UniversityAccordion = ({university, title}) => {
 
     if (!university.level || university.level.length === 0) {

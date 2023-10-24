@@ -1,5 +1,6 @@
-import styles from "./Feedback.module.scss";
 import FeedbackSlider from "./Slider/FeedbackSlider";
+import styles from "./Feedback.module.scss";
+
 
 const Feedback = ({feedback}) => {
     return (

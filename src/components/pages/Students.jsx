@@ -1,6 +1,6 @@
+import {useLoaderData} from "react-router-dom";
 import Posts from "../UI/Posts/Posts";
 
-import {useLoaderData} from "react-router-dom";
 
 const Students = () => {
     const {postsStudents} = useLoaderData();
@@ -13,7 +13,6 @@ const Students = () => {
             />
         </div>
     )
-
 }
 
 export default Students;

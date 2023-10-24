@@ -1,5 +1,6 @@
-import styles from "./ContactInfo.module.scss";
 import classNames from "classnames";
+import styles from "./ContactInfo.module.scss";
+
 
 const ContactInfo = ({address, schedule, className, show = true}) => {
     const locationIcon = <svg width="12" height="16" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">

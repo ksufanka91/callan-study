@@ -1,12 +1,12 @@
-import styles from "./UniversityDetail.module.scss";
 import classNames from "classnames";
 import UniversityCard from "./UniversityCard/UniversityCard";
 import UniversityAccordion from "../UniversitiesPage/UniversityAccordion/UniversityAccordion";
 import UniversityDetailSlider from "./UniversityDetailSlider/UniversityDetailSlider";
+import styles from "./UniversityDetail.module.scss";
+
 
 const UniversityDetail = ({university}) => {
     return (
-        <div className={styles.universityDetails}>
             <div className="container">
                 <h1 className="visuallyHidden">{university.name}</h1>
                 <h2 className={styles.mainTitle}>{university.name}</h2>
@@ -17,7 +17,7 @@ const UniversityDetail = ({university}) => {
                         <UniversityCard university={university} className={styles.show}/>
 
                         <div className={styles.aboutUniversity}>
-                            <h3 className={styles.mainContentTitle}>
+                            <h3>
                                 О ВУЗе
                             </h3>
                             <div className={styles.paragraph} dangerouslySetInnerHTML={{__html: university.description}}/>
@@ -55,7 +55,6 @@ const UniversityDetail = ({university}) => {
                                 </ul>
                             )}
                         </div>
-
                     </aside>
                 </div>
 
@@ -67,7 +66,6 @@ const UniversityDetail = ({university}) => {
                 </div>
 
             </div>
-        </div>
     );
 };
 

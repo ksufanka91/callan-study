@@ -1,5 +1,6 @@
 import styles from "./ContactsInfoCard.module.scss";
 
+
 const ContactsInfoCard = ({items}) => {
     return (
         <div className={styles.contactsInfoCard}>
@@ -18,7 +19,6 @@ const ContactsInfoCard = ({items}) => {
                     </div>
                 </div>
             ))}
-
         </div>
     );
 };

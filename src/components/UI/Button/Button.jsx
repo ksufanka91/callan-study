@@ -1,5 +1,4 @@
 import classNames from "classnames";
-
 import styles from "./Button.module.scss";
 
 const Button = ({
@@ -18,7 +17,6 @@ const Button = ({
                 type={type}
                 onClick={onClick}>
             {icon && <span className={styles.buttonIcon}>{icon}</span>}
-
             {children}
         </button>
     )

@@ -10,16 +10,12 @@ const CardsWithInfo = ({items, title, subtitle}) => {
             <div className={styles.box}>
                 {items.map(item => (
                     <div className={styles.item} key={item.id}>
-                        <div className={styles.imageBox}>
-                            <img src={item.image} alt={item.alt} className={styles.image}/>
-                        </div>
-
+                        <img src={item.image} alt={item.alt} className={styles.image}/>
                         <div dangerouslySetInnerHTML={{__html: item.text}}/>
                     </div>
                 ))}
             </div>
         </>
-
     );
 };
 

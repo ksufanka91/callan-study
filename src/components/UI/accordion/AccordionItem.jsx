@@ -4,8 +4,8 @@ import {
     AccordionItemHeading,
     AccordionItemPanel
 } from "react-accessible-accordion";
-import styles from "./AccordionItem.module.scss";
 import classNames from "classnames";
+import styles from "./AccordionItem.module.scss";
 
 const AccordionItem = ({title, description, className}) => {
     return (

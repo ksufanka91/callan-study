@@ -8,12 +8,16 @@ const Breadcrumbs = ({crumbs}) => {
 
     return (
         <div className="container">
-
             <div className={styles.breadcrumbs}>
                 <img src="images/icons/home.svg" alt="home" className={styles.icon}/>
-                {crumbs.map((crumb, index) => <Link key={index} to={crumb.link} className={styles.breadcrumb}>{crumb.title}</Link>)}
+                {crumbs.map((crumb, index) =>
+                    <Link
+                        to={crumb.link}
+                        key={index}
+                        className={styles.breadcrumb}>
+                        {crumb.title}
+                    </Link>)}
             </div>
-
         </div>
     );
 }

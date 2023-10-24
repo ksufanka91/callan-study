@@ -5,7 +5,6 @@ import Filters from "../Filters/Filters";
 import SearchAndSort from "./SearchAndSort/SearchAndSort";
 import UniversitiesList from "./UniversitiesList/UniversitiesList";
 import Button from "../../UI/Button/Button";
-
 import styles from "./UniversitiesPage.module.scss";
 
 
@@ -45,7 +44,7 @@ const UniversitiesPage = () => {
     }
 
     return (
-        <div className={styles.universitiesPage}>
+        <div>
             <div className="container">
                 <h1 className="visuallyHidden">Университеты</h1>
                 <h2 className={styles.mainTitle}>Университеты</h2>

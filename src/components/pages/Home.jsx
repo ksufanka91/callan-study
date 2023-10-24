@@ -1,3 +1,4 @@
+import {useLoaderData} from "react-router-dom";
 import LandingScreen from "../content/LandingScreen/LandingScreen";
 import Advantages from "../content/Advantages/Advantages";
 import Universities from "../content/Universities/Universities";
@@ -6,7 +7,6 @@ import Students from "../content/Students/Students";
 import Faq from "../content/Faq/Faq";
 import ComponentsContainer from "../ComponentsContainer";
 
-import {useLoaderData} from "react-router-dom";
 
 const Home = () => {
     const {landing, universities, feedback, students, faq, advantages} = useLoaderData();

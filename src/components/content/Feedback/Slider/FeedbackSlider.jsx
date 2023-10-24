@@ -1,10 +1,8 @@
 import Slider from "react-slick";
-import FeedbackSlide from "./FeedbackSlide";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import FeedbackSlide from "./FeedbackSlide";
 import Arrow from "../../../UI/slider/Arrow";
-
 import styles from './FeedbackSlider.module.scss';
 
 

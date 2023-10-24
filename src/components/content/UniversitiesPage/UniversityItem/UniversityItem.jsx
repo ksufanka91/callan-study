@@ -1,6 +1,7 @@
-import styles from "./UniversityItem.module.scss";
 import {Link} from "react-router-dom";
 import StarRating from "../../../UI/rating/StarRating/StarRating";
+import styles from "./UniversityItem.module.scss";
+
 
 const UniversityItem = ({item}) => {
     return (

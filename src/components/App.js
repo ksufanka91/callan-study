@@ -10,6 +10,8 @@ import News from "./pages/News";
 import Contacts from "./pages/Contacts";
 import UniversityDetailPage from "./pages/UniversityDetailPage";
 import UniversitiesPage from "./content/UniversitiesPage/UniversitiesPage";
+import NotFoundPage from "./pages/NotFoundPage";
+
 import {
     loadAbout,
     loadHome,
@@ -41,6 +43,13 @@ function App() {
                 crumb: () => "Главная",
             },
             children: [
+                {
+                    path: "*",
+                    element: <NotFoundPage/>,
+                    handle: {
+                        crumb: () => "Страница не найдена",
+                    }
+                },
                 {
                     path: "about",
                     element: <About/>,
@@ -76,7 +85,7 @@ function App() {
                             handle: {
                                 crumb: (data) => data.university?.name,
                             },
-                        }
+                        },
                     ]
                 },
                 {
@@ -106,9 +115,7 @@ function App() {
         },
     ]);
 
-    return (
-        <RouterProvider router={router}/>
-    )
+    return <RouterProvider router={router}/>;
 }
 
 export default App;

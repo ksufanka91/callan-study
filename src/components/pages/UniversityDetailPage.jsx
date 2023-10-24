@@ -1,12 +1,12 @@
 import UniversityDetail from "../content/UniversityDetail/UniversityDetail";
 import {useLoaderData} from "react-router-dom";
+import NotFoundPage from "./NotFoundPage";
 
 const UniversityDetailPage = () => {
     const {university} = useLoaderData();
 
     if (!university) {
-        return <h2>404</h2>
-        // return <Page404/>
+        return <NotFoundPage/>;
     }
 
     return (

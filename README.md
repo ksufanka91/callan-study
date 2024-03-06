@@ -2,7 +2,7 @@
 
 Назначение: Тестовая работа для наполнения портфолио
 
-Demo: https://ksufanka91.github.io/callan-study/build/
+Demo: https://ksufanka91.github.io/callan-study/
 
 Сборка проекта: npm run build или npm start
 
